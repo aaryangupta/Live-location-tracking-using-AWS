@@ -1,7 +1,7 @@
 const TRACKER = 'FleeTTracker'; //Tracker name
 const REGION = "us-east-1";
 const IDENTITY_POOL_ID = "us-east-1:969d1eae-802e-4708-afe6-107ac2ff4e5c";
-const WEBSOCKET_URL = "wss://vhyig9wsld.execute-api.us-east-1.amazonaws.com/production/"; // This is of the form: wss://<id>.execute-api.<region>.amazonaws.com/<stage>
+const WEBSOCKET_URL = ""; // This is of the form: wss://<id>.execute-api.<region>.amazonaws.com/<stage>
 
 var map = L.map('map').setView([36.168110, -115.1191], 14);
 var theMarker;
