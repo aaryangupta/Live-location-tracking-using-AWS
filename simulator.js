@@ -1,8 +1,8 @@
 // Replace these values with your actual AWS IoT Core endpoint, topic, and region
-const IOT_ENDPOINT = 'a2yyhxvo5xsqzu-ats.iot.us-east-1.amazonaws.com'; 
+const IOT_ENDPOINT = ''; 
 const TOPIC = 'fleet/location'; // Topic Name
 const REGION = 'us-east-1';
-const IDENTITY_POOL_ID = 'us-east-1:969d1eae-802e-4708-afe6-107ac2ff4e5c';
+const IDENTITY_POOL_ID = '';
 var iotData = null;
 
 class Device {
